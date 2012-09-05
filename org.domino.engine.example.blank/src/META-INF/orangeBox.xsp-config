@@ -1,0 +1,17 @@
+<faces-config>
+    <faces-config-extension>
+        <namespace-uri>http://example.com/xsp/blank</namespace-uri>
+        <default-prefix>bl</default-prefix>
+    </faces-config-extension>
+   
+    <component>
+        <description>An orange rectangle containing some text and a horizontal line, with any child controls output within the box after the line</description>
+        <display-name>Orange Box</display-name>
+        <component-type>org.domino.engine.example.blank.OrangeBox</component-type>
+        <component-class>org.domino.engine.example.blank.component.orangebox.UIOrangeBox</component-class>
+        <component-extension>
+            <tag-name>orangeBox</tag-name>
+        </component-extension>
+    </component>
+    
+</faces-config>

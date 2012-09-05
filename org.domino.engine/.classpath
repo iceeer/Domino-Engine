@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry exported="true" kind="lib" path="lib/ecs-1.4.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/apache/common/commons-lang3-3.0-beta.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/barcode4j.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/topcoder/base_exception.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/avalon-framework-4.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/sapjco/2.1.7/sapjco.jar"/>
+	<classpathentry kind="lib" path="lib/apache/ant.jar"/>
+	<classpathentry kind="lib" path="lib/empp/empp.jar"/>
+	<classpathentry kind="lib" path="lib/empp/jdom-1.0b8.jar"/>
+	<classpathentry kind="lib" path="lib/axis/axis-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/axis/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="lib/axis/mail.jar"/>
+	<classpathentry kind="lib" path="lib/itext/itext-xtra-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/itext/itextpdf-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/poi/poi-3.8-beta4-20110826.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jvm"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

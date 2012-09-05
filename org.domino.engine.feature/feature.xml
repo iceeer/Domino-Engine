@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.domino.engine.feature"
+      label="Domino Engine Feature"
+      version="1.0.0.qualifier"
+      provider-name="ORG">
+
+   <description url="http://engine.domino.org/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://engine.domino.org/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://engine.domino.org/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="org.domino.engine"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

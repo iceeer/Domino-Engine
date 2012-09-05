@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FragmentProject
+Bundle-SymbolicName: FragmentProject
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: org.domino.engine;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

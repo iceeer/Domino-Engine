@@ -1,0 +1,16 @@
+<faces-config>
+  <faces-config-extension>
+    <namespace-uri>http://domino.org/xsp/control</namespace-uri>
+    <default-prefix>eg</default-prefix>
+  </faces-config-extension>
+
+  <component>
+    <description>some menu</description>
+    <display-name>Menu Control</display-name>
+    <component-type>org.domino.engine.menu</component-type>
+    <component-class>org.domino.engine.menu.MenuControl</component-class>
+    <component-extension>
+      <tag-name>menuControl</tag-name>
+    </component-extension>
+  </component>
+</faces-config>

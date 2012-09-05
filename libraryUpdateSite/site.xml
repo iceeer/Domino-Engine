@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.domino.engine.feature_1.0.0.201112121725.jar" id="org.domino.engine.feature" version="1.0.0.201112121725"/>
+</site>

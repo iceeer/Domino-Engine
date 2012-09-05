@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<project name="ImportTask" default="main" basedir=".">
+	<property file="copyfile.properties"/>
+	<taskdef name="eclipseimport" classname="com.ibm.designer.extensibility.copyfile.anttasks.ImportTask"/>
+	
+	<target name="main">
+		<eclipseimport fromdir="${import.fromdir}" project="${project}" 
+			overwriteolder="yes" createlog="yes" debug="yes">
+			<fileset dir="${import.fromdir}/${project}/XPages" includes="**/*.xsp"/>
+			<fileset dir="${import.fromdir}/${project}/Views"/>
+			<filelist dir="${import.fromdir}/${project}/XPages" files="test.xsp,test1.xsp"/>
+		</eclipseimport>
+	</target>
+
+</project>

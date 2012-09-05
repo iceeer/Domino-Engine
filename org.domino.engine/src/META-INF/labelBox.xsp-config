@@ -1,0 +1,17 @@
+<faces-config>
+    <faces-config-extension>
+        <namespace-uri>http://example.com/xsp/blank</namespace-uri>
+        <default-prefix>bl</default-prefix>
+    </faces-config-extension>
+   
+    <component>
+        <description>An rectangle containing some text and a horizontal line, with any child controls output within the box after the line</description>
+        <display-name>Label Box</display-name>
+        <component-type>org.domino.engine.labelbox</component-type>
+        <component-class>org.domino.engine.labelbox.UILabelBox</component-class>
+        <component-extension>
+            <tag-name>labelBox</tag-name>
+        </component-extension>
+    </component>
+    
+</faces-config>

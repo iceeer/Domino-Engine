@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="mindoo.remoteapi.makerelease" default="makerelease" basedir=".">
+	<dirname file=".." property="workspace_loc"/>
+	<dirname file="." property="release_dir"/>
+	
+	<property name="dominohelpersrc_dir" value="${workspace_loc}${file.separator}com.ls11.dominohelper" />
+	<property name="exportsrc_dir" value="${workspace_loc}${file.separator}com.ls11.externalcodesample" />
+	
+	<target name="makerelease" description="Create a JAR with the project content for XPage export">
+		
+		<mkdir dir="${release_dir}/lib"/>
+		
+		<echo>release_dir: ${release_dir}</echo>
+		
+		<jar jarfile="${release_dir}/lib/ls11-externalcodesample.jar">
+        	<fileset dir="${dominohelpersrc_dir}/bin" casesensitive="yes">
+            	<include name="**/*.class"/>
+            </fileset>
+        	<fileset dir="${exportsrc_dir}/bin" casesensitive="yes">
+            	<include name="**/*.class"/>
+            </fileset>
+	   	</jar>
+	</target>
+</project>

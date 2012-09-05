@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<project name="ExportTask" default="main" basedir=".">
+	<taskdef name="eclipseexport" classname="com.ibm.designer.extensibility.copyfile.anttasks.ExportTask">
+		<classpath>
+			<fileset file="dxl/lib/com.ibm.designer.extensibility.copyfile_1.3.1.jar"/>
+			<fileset file="dxl/lib/org.eclipse.core.resources_3.4.2.R34x_v20090126.jar"/>
+			<fileset file="dxl/lib/org.eclipse.equinox.common_3.4.0.v20080421-2006.jar"/>
+			<fileset file="dxl/lib/org.eclipse.ui.workbench_3.4.2.M20090127-1700-RCP20110815-1128.jar"/>
+		</classpath>
+	</taskdef>
+	<property file="copyfile.properties"/>
+	<target name="main">
+		<eclipseexport></eclipseexport>
+	</target>
+</project>
+

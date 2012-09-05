@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<project name="ExportTask" default="main" basedir=".">
+	<taskdef name="eclipseexport" classname="com.ibm.designer.extensibility.copyfile.anttasks.ExportTask"/>
+	<property file="copyfile.properties"/>
+	<target name="main">
+		<eclipseexport todir="${export.todir}" project="${project}" 
+			overwriteolder="yes" createlog="yes" debug="yes">
+			<fileset dir="${project}/Views"/>
+			<filelist dir="${project}/XPages" files="index.xsp,Admin.xsp"/>
+		</eclipseexport>
+	</target>
+</project>
+
